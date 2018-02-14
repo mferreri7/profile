@@ -102,9 +102,21 @@ ul li p:hover {
   padding-left: 0px;
 }
 
+
 .list-inline > li {
   display: inline-block;
   padding: 0px 20px;
+}
+
+.vertical-list {
+  padding-left: 0px;
+  list-style: none;
+}
+
+.vertical-list > li {
+  display: list-item;
+  text-align: center;
+  margin-top: 150px;
 }
 
 .fa {
@@ -143,4 +155,24 @@ ul li p:hover {
     padding: 15px;
   }
 
+}
+
+#sidebar {
+  position: fixed;
+  width: 50px;
+  left: -0px;
+  top: 0;
+  bottom: 0;
+  background: #00698F;
+  box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.2);
+}
+#sidebar .fa {
+  color: white;
+  transition: .1s;
+}
+#sidebar .fa:hover {
+  transform: scale(1.1,1.1);
+}
+#page-content {
+  margin-left: 300px;
 }
