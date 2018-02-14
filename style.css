@@ -1,0 +1,150 @@
+body {
+  background-color: #EBEBEB;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: lighter;
+  font-size: 15px;
+  line-height: 1.6em;
+}
+
+h1,h2,h3,h4 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  font-size: 22px;
+  color: #00698F;
+}
+
+h2 {
+  font-weight: lighter;
+  font-size: 18px;
+  color: #7D7D7D;
+}
+
+h3 {
+  font-size: 16px;
+  color: #7D7D7D;
+}
+
+a {
+  text-decoration: none;
+  color: #ccc;
+}
+
+a:hover {
+  color: #00698F;
+}
+
+p {
+  color: #7D7D7D;
+}
+
+ul {
+  display: block;
+}
+
+li {
+  display: inline-block;
+}
+
+ul li p:hover {
+   color: #00698F;
+}
+
+
+.table-padded h3 {
+  text-align: left;
+  font-weight: 300;
+}
+
+.table-padded td {
+  padding: 10px;
+}
+
+.table-padded p {
+  text-align: justify;
+}
+
+.table-padded img {
+  opacity: 0.85;
+  width: 120px;
+}
+
+.container {
+  width: 500px;
+  margin: 0px auto;
+}
+
+.card {
+  box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.2);
+  border-radius: 4px;
+  margin-bottom: 20px;
+  padding: 20px;
+  background: white;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.avatar-small {
+  width: 100px;
+  height: 100px;
+  border: 3px solid #cccccc;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.list-inline {
+  padding-left: 0px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.fa {
+  font-size: 25px;
+}
+
+.btn-red {
+  background: #00698F;
+  margin: 10px 10px;
+  padding: 10px;
+  border-radius: 4px;
+  color: white;
+  font-weight: 400;
+}
+
+.btn-red:hover {
+  background: #078bb7;
+  color: white;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
