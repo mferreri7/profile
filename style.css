@@ -123,7 +123,7 @@ ul li p:hover {
   font-size: 25px;
 }
 
-.btn-red {
+.btn-blue {
   background: #00698F;
   margin: 10px 10px;
   padding: 10px;
@@ -132,29 +132,13 @@ ul li p:hover {
   font-weight: 400;
 }
 
-.btn-red:hover {
+.btn-blue:hover {
   background: #078bb7;
   color: white;
 }
 
 .bold {
   font-weight: bold;
-}
-
-@media (max-width: 540px) {
-  /* For a screen < 540px, this CSS will be read */
-  .table-padded img {
-    display: none;
-  }
-
-  .table-padded td {
-    padding: 0px;
-  }
-
-  .card {
-    padding: 15px;
-  }
-
 }
 
 #sidebar {
@@ -175,4 +159,28 @@ ul li p:hover {
 }
 #page-content {
   margin-left: 300px;
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .table-padded img {
+    display: none;
+  }
+
+  .table-padded td {
+    padding: 0px;
+  }
+
+  .card {
+    padding: 15px;
+  }
+
+  #sidebar {
+    display: none;
+  }
+
+  #page-content {
+  margin-left: 0px;
+  }
+
 }
